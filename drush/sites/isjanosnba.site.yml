@@ -1,0 +1,6 @@
+local:
+    root: /var/www/isjanosnba/docroot
+    uri: 'http://local.isjanosnba.com'
+    host: local.isjanosnba.com
+    user: vagrant
+    ssh: { options: '-o PasswordAuthentication=no -i $HOME/.vagrant.d/insecure_private_key' }
